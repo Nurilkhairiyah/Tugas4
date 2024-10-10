@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+        <li><a href="#home" onclick="showPage('home')">Home</a></li>
+        <li><a href="#about" onclick="showPage('about')">About</a></li>
+        <li><a href="#contact" onclick="showPage('contact')">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="page active">
+    <div class="content">
+      <h1>Welcome to Website Pantai Munir</h1>
+      <p>Jl. Pantai Munir, Desa Pulo Panjang, Kec. Puloampel, Kabupaten Serang, Banten 42191</p>
+    </div>
+    <img src="Munir.jpg.jpeg" alt="Pantai Munir" class="featured-image">
+  </section>
+
+  <section id="about" class="page active">
+    <div class="content">
+        <h1>Tentang Pantai Munir</h1>
+        <p>Pantai Munir terletak di Desa Pulau Panjang, Kecamatan Pulau Ampel, Kabupaten Serang. Pantai ini memiliki potensi wisata seperti Pantai Munir Mangrove dan wisata bahari lainnya.</p>
+    </div>
+
+    <div class="gallery">
+        <img src="Pohon.jpg" alt="Gambar 1" class="gallery-item">
+        <img src="Selam.jpeg" alt="Gambar 2" class="gallery-item">
+        <img src="pantai.jpg" alt="Gambar 3" class="gallery-item">
+    </div>
+</section>
+
+
+  <section id="contact" class="page active">
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>Silakan hubungi kami di halaman ini (089736384682364)</p>
+        <h1>Lokasi Pantai Munir</h1>
+        <p>Untuk melihat lokasi Pantai Munir, klik tautan di bawah ini:</p>
+        <a href="https://www.google.com/maps/place/Pantai+Munir/@-6.0670605,106.1212642,15z/data=!4m6!3m5!1s0x2e418ac00e4ffb1d:0xe88c9cb2dbd3f76c!8m2!3d-6.0670605!4d106.1212642!16s%2Fg%2F11b6fhg62c" target="_blank">Buka di Google Maps</a>
+        
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15879.569498239905!2d106.1190781!3d-6.0670605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418ac00e4ffb1d%3A0xe88c9cb2dbd3f76c!2sPantai%20Munir!5e0!3m2!1sen!2sid!4v1683772090467!5m2!1sen!2sid" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+  <script src="server.js"></script>
+
+</body>
+</html>
+
